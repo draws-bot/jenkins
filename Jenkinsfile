@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                //
+                echo "hi here sandeep kumar"
             }
         }
         stage('Deploy') {
