@@ -1,5 +1,7 @@
 pipeline {
-    agent any
+    agent {
+        lebel 'AGENT-1'
+    }
     stages {
         stage('Build') {
             steps {
