@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        label 'AGEN-1'
+        label 'AGENT-1'
     }
         parameters {
         string(name: 'PERSON', defaultValue: 'Mr Jenkins', description: 'Who should I say hello to?')
